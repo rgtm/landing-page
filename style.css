@@ -65,23 +65,30 @@
     border-color: blue;
     border-width: 2px;
     border-style: solid;
-    min-width: 80px;
-    min-height: 80px;
+    min-width: 120px;
+    max-width: 120px;
+    min-height: 120px;
+    max-height: 120px;
 }
 
 .img-text {
     font-size: small;
+    text-align: center;
 }
 
 .cards {
     display: flex;
-    flex-shrink: 0;
-    gap: 20px;
+    justify-content: space-around;
+    gap: 30px;
+    flex-wrap: wrap;
 }
 
 .infocard {
+    flex-grow: 0;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    max-width: 120px;
 }
 
 .awesome {
@@ -117,6 +124,7 @@ ul {
     font-weight: bold;
     padding-left: 150px;
     padding-right: 150px;
+    text-align: end;
 }
 
 .blue-box {
