@@ -27,14 +27,14 @@
 .row-1 {
     display: flex;;
     background-color: #202938;
-    padding: 64px;
+    padding: 40px 120px 40px 120px;
 }
 
 .row-2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 64px;
+    padding: 40px;
 }
 
 .row-3 {
@@ -137,11 +137,13 @@ ul {
 }
 
 .call-sub {
-    font-weight: bold;
+    font-weight: bolder;
+    font-size: large;
 }
 
 .call-text {
-    font-size: small;
+    font-size: smaller;
+    color: lightgrey;
 }
 
 .su-button-2 {
@@ -149,22 +151,18 @@ ul {
     border-radius: 5px;
     border-style: solid;
     padding: 5px 25px;
-    margin-left: 64px;
-}
-
-.footer {
-    justify-content: center;
 }
 
 .copyright {
-    justify-content: center;
+    text-align: center;
+    padding: 20px;
 }
 
-body {
+/* body {
     display: flex;
     flex-direction: column;
     flex: 1;
-}
+} */
 
 * {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
